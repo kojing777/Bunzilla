@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import HeroSection from './components/Hero'
 
 const App = () => {
   return (
     <>
       <Navbar />
+      <HeroSection />
       <div className="pt-20">
         <section className="h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white">
           <div className="text-center">
